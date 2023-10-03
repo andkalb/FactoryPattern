@@ -4,7 +4,7 @@ class NVBonusSlotMachine extends NVSlotMachine {
         display = "CRT";
         payment = "ticketinticketout";
         CPU = "X87";
-        this.OS = "Linux";
+        OS = "Linux";
     }
     public void play() {
         System.out.println("Playing a Nevada Bonus Slot Machine...");
