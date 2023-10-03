@@ -1,11 +1,10 @@
 abstract class SlotMachine {
-    private String cabinet;
-    private String display;
-    private String payment;
-    private String GPU;
-    private String OS;
-    public SlotMachine();
-    public play();
+    protected String cabinet;
+    protected String display;
+    protected String payment;
+    protected String CPU;
+    protected String OS;
+    abstract public void play();
     public String getCabinet() {
         return cabinet;
     }
@@ -18,11 +17,11 @@ abstract class SlotMachine {
     public void setPayment(String newPayment) {
         payment = newPayment;
     }
-    public String getGPU() {
-        return GPU;
+    public String getCPU() {
+        return CPU;
     }
-    public void setCPU(String newGPU) {
-        GPU = newGPU;
+    public void setCPU(String newCPU) {
+        CPU = newCPU;
     }
     public String getDisplay() {
         return display;

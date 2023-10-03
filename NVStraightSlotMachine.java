@@ -3,10 +3,10 @@ class NVStraightSlotMachine extends NVSlotMachine {
         cabinet = "large";
         display = "reels";
         payment = "ticketinticketout";
-        GPU = "ARM";
+        CPU = "ARM";
         OS = "Linux";
     }
-    public play() {
+    public void play() {
         System.out.println("Playing a Nevada Straight Slot Machine...");
     }
 }

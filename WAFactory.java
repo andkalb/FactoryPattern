@@ -1,5 +1,5 @@
 
-public WAFactory implements SlotMachineFactory
+public class WAFactory implements SlotMachineFactory
 {
     private SlotMachine slotMachine;
 

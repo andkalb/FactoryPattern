@@ -1,12 +1,12 @@
-class NVProgressiveSlotMachine extends NVSlottMachine {
+class NVProgressiveSlotMachine extends NVSlotMachine {
     public NVProgressiveSlotMachine() {
         cabinet = "medium";
         display = "LCD";
         payment = "ticketinticketout";
-        GPU = "X77";
+        CPU = "X77";
         OS = "Android";
     }
-    public play() {
+    public void play() {
         System.out.println("Playing a Nevada Progressive Slot Machine...");
     }
 }

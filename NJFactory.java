@@ -1,5 +1,5 @@
 
-public NJFactory implements SlotMachineFactory
+public class NJFactory implements SlotMachineFactory
 {
     private SlotMachine slotMachine;
 
