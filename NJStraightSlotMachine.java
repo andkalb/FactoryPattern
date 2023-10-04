@@ -1,5 +1,5 @@
-class NVStraightSlotMachine extends NVSlotMachine {
-    public NVStraightSlotMachine() {
+class NJStraightSlotMachine extends NJSlotMachine {
+    public NJStraightSlotMachine() {
         cabinet = "small";
         display = "LCD";
         payment = "coins";

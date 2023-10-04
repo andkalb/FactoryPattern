@@ -29,10 +29,10 @@ public class NVFactory implements SlotMachineFactory
     public SlotMachine order(String type)
     {
         SlotMachine machine = build(type);
-        System.out.println("Making a Nevada Style " + type + " slot machine");
-        System.out.println("fetching components: " + machine.getCabinet() + ", " + machine.getDisplay() + ", " + machine.getPayment() + ", " + machine.getCPU());
+        System.out.println("--- Making a Nevada Style " + type + " slot machine ---");
+        System.out.println("fetching components: " + machine.getCabinet() + "cabinet, " + machine.getPayment() + " validator, " + machine.getDisplay() + " display, " + machine.getCPU());
         System.out.println("assembling components");
-        System.out.println("uploading software " + machine.getOS());
+        System.out.println("uploading software: " + machine.getOS());
         System.out.println("testing software");
         System.out.println("wrapping, and delivering");
         System.out.println();
