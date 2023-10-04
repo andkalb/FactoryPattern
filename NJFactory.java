@@ -30,7 +30,7 @@ public class NJFactory implements SlotMachineFactory
     {
         SlotMachine machine = build(type);
         System.out.println("--- Making a New Jersey Style " + type + " slot machine ---");
-        System.out.println("fetching components: " + machine.getCabinet() + "cabinet, " + machine.getPayment() + " validator, " + machine.getDisplay() + " display, " + machine.getCPU());
+        System.out.println("fetching components: " + machine.getCabinet() + " cabinet, " + machine.getPayment() + " validator, " + machine.getDisplay() + " display, " + machine.getCPU());
         System.out.println("assembling components");
         System.out.println("uploading software: " + machine.getOS());
         System.out.println("testing software");

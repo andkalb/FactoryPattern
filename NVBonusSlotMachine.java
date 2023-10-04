@@ -3,7 +3,7 @@ class NVBonusSlotMachine extends NVSlotMachine {
         cabinet = "small";
         display = "CRT";
         payment = "ticketinticketout";
-        CPU = "X87";
+        CPU = "X86";
         OS = "Linux";
     }
     public void play() {
